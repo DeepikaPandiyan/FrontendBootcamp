@@ -1,0 +1,248 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.insta-logo {
+    flex: 0 0 calc(40% - 200px);
+    margin-left: 200px;
+}
+
+.insta-logo img {
+    height: 30px;
+    width: 100px;
+}
+
+.search-box {
+    flex: 0 0 20%;
+    display: flex;
+    position: relative;
+}
+
+.searchbox {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.search-button {
+    display: flex;
+}
+
+.search-icon {
+    color: #ddd;
+    font-size: 12px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.insta-properties {
+    flex: 0 0 calc(40% - 100px);
+    display: flex;
+    margin-left: 100px;
+}
+
+.icon {
+    padding: 0 10px;
+    font-size: 20px;
+} 
+
+.profile img {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    margin: 0 200px;
+    display: flex;
+}
+
+.container-left {
+    flex: 0 0 calc(60% - 200px);
+}
+
+.container-right {
+    flex: 0 0 calc(40% - 200px);
+}
+
+.story {
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 20px 20px 20px 0;
+    display: flex;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.view {
+    padding: 0 5px;
+} 
+
+.story img {
+    height: 70px;
+    width: 70px;
+}
+
+.container-left-bottom {
+    margin-right: 20px;
+}
+
+.postid {
+    display: flex;
+}
+
+.postidname {
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.postid img {
+    height: 50px;
+    width: 50px;
+}
+
+.postpicture img {
+    width: 100%;
+}
+
+.post1 {
+    border: 1px solid #ddd;
+}
+
+.symbols {
+    display: flex;
+    padding: 10px 0;
+}
+
+.icon {
+    padding-left: 10px;
+    font-size: 28px;
+}
+
+.like {
+    padding-left: 0;
+}
+
+.savepost {
+    padding-left:500px ;
+}
+
+.postmentions {
+    display: flex;
+    padding: 10px 0;
+}
+
+.postdetails {
+    margin: 10px 0 10px 20px;
+}
+
+.view-comment {
+    color: #777;
+}
+
+.add-comment {
+    color: #777;
+    font-size: 14px;
+}
+
+.post-comment {
+    display: flex;
+}
+
+.timing {
+    font-size: 10px;
+    color: #777;
+}
+
+.addcomment {
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.add-comment-post {
+    color: #B3DFFC;
+    padding-left: 450px;
+}
+
+.container-right-top {
+    margin-bottom: 10px;
+}
+
+.myaccount {
+    display: flex;
+    margin-top: 50px;
+    font-size: 12px;
+    flex: 0 0 75%;
+}
+
+.myaccount img {
+    height: 70px;
+    width: 70px;
+    flex: 0 0 20%;
+}
+
+.comment-switch {
+    padding: 10px 0 0 50px;
+    color: #1DA0F6;
+    flex: 0 0 5%;
+}
+
+.name {
+     padding: 10px 0 10px 10px;
+     flex-wrap: 0 0 70%;
+}
+
+.name1 {
+    font-weight: 500
+}
+
+.name2 {
+    color: #777;
+}
+
+.container-right-between {
+    display: flex;
+    padding: 10px 0;
+}
+
+.suggestions {
+    color: #888;
+    font-size: 14px;
+    font-weight: 500;
+    flex: 0 0 85%;
+}
+
+.seeall {
+    font-size: 12px;
+    flex: 0 0 15%;
+}
+
+.account img {
+    height: 50px;
+    width: 50px;
+    flex: 0 0 20%;
+}
+
+.names {
+    padding: 5px 5px;
+    flex: 0 0 60%;
+}
+
+.account {
+    display: flex;
+    font-size: 12px;
+}
+
+.comment-follow {
+    padding: 10px 0 0 0;
+    color: #1DA0F6;
+    font-weight: 500;
+    flex: 0 0 20%;
+}
